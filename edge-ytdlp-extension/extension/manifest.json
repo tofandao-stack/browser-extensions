@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube to MP3 Local Runner",
+  "version": "1.0.0",
+  "description": "Trimite URL-ul curent de YouTube către un script local.",
+  "permissions": [
+    "activeTab",
+    "nativeMessaging"
+  ],
+  "host_permissions": [
+    "https://www.youtube.com/*",
+    "https://youtu.be/*",
+    "https://music.youtube.com/*"
+  ],
+  "action": {
+    "default_title": "Download current YouTube URL"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

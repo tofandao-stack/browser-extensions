@@ -1,0 +1,9 @@
+{
+  "name": "com.costel.youtube_mp3",
+  "description": "Native host for sending YouTube URLs to local yt-dlp script",
+  "path": "REPLACE_WITH_FULL_PATH_TO_NATIVE_HOST_PY",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://YOUR_EXTENSION_ID/"
+  ]
+}
